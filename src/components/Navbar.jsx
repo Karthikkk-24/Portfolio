@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <div className="navbar_container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -19,9 +20,9 @@ export default function Navbar() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <Link class="nav-link" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">

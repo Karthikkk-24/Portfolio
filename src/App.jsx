@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import MainCard from "./components/MainCard";
 import Navbar from "./components/Navbar";
@@ -9,8 +10,14 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <MainCard />
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <MainCard />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

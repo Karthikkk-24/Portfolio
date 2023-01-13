@@ -79,18 +79,25 @@ img {
   bottom: 0;
   width: 100vw;
   left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
-  height: 7vh;
+  height: 8vh;
+  width: 80vw;
+  background-color: #333d51;
+  border-radius: 60px 60px 0 0;
 }
 
 .nav-item .nav-link {
   font-size: 22px;
+  color: white;
 }
 
 .nav-item {
-  margin-left: 2vw;
+  margin-left: 2.5vw;
 }
 
 .social_media {
@@ -110,5 +117,6 @@ img {
 }
 
 .designation {
+  font-weight: bold;
   font-size: 40px;
 }
