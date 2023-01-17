@@ -1,25 +1,17 @@
 import React from "react";
+import DisplayCard from "./DisplayCard";
 
 export default function MainCard() {
   return (
     <div>
-      <div className="background"></div>
       <div className="main_card">
-        <div className="photo">
-          <img src="src/assets/My_Pic.jpg" alt="" />
-        </div>
-        <div className="contents">
-          <h1 className="name">Karthik Shettigar</h1>
-          <h2 className="designation">Software Engineer | Ethical Hacking</h2>
-
-          <div className="social_media">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-medium"></i>
+        <div className="controls_section">
+          <div className="circles">
+            <div className="circle"></div>
+            <div className="circle"></div>
           </div>
         </div>
+        <div className="content_section"></div>
       </div>
     </div>
   );

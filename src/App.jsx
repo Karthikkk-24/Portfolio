@@ -14,7 +14,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <MainCard />
+            <div className="main_content">
+              <MainCard />
+            </div>
           </Route>
         </Switch>
       </Router>
