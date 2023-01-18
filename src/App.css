@@ -236,6 +236,61 @@ input {
   box-shadow: 10px 13px #30312f;
 }
 
+@media screen and (max-width: 1416px) {
+  .main_card {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 80vh;
+    margin-top: 8vh;
+    background: #f6ebd5;
+    border: 5px solid #30312f;
+    border-radius: 20px;
+    box-shadow: 10px 13px #30312f;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1244px) {
+  .main_card {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: 80vh;
+    margin-top: 8vh;
+    background: #f6ebd5;
+    border: 5px solid #30312f;
+    border-radius: 20px;
+    box-shadow: 10px 13px #30312f;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .content {
+    width: 60%;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1222px) {
+  .url_bar {
+    border-radius: 6px;
+    height: 5.5vh;
+    overflow: hidden;
+    margin-left: 0.8vw;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .profile {
     width: 100%;
