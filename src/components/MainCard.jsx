@@ -7,8 +7,9 @@ export default function MainCard() {
       <div className="main_card">
         <div className="controls_section">
           <div className="circles">
-            <div className="circle"></div>
-            <div className="circle"></div>
+            <div className="circle circle1"></div>
+            <div className="circle circle2"></div>
+            <div className="circle circle3"></div>
           </div>
           <div className="squares">
             <div className="square">
@@ -74,8 +75,12 @@ export default function MainCard() {
         </div>
         <div className="content_section">
           <div className="content">
-            <div className="name"></div>
-            <div className="designation"></div>
+            <div className="details">
+              <div className="name">Karthik Shettigar</div>
+              <div className="designation">
+                Software Engineer | Ethical Hacker
+              </div>
+            </div>
           </div>
           <div className="profile">
             <div className="image">
