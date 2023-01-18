@@ -78,7 +78,9 @@ export default function MainCard() {
             <div className="designation"></div>
           </div>
           <div className="profile">
-            <img src="../src/assets/My_Pic.jpg" alt="" />
+            <div className="image">
+              <img src="../src/assets/My_Pic.jpg" alt="" />
+            </div>
           </div>
         </div>
       </div>
