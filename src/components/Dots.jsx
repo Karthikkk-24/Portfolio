@@ -13,7 +13,7 @@ export default function Dots({ color }) {
     }
     return (
         <div
-            className={`h-6 w-6 rounded-full aspect-square cursor-pointer ${colorClass[color]} ${colorHoverClass[color]}`}
+            className={`h-6 w-6 rounded-full border-4 border-black aspect-square cursor-pointer ${colorClass[color]} ${colorHoverClass[color]}`}
         ></div>
     );
 }
